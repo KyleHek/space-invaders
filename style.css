@@ -1,3 +1,8 @@
+:root {
+    --left-color: #FC5C7D;
+    --right-color: #6A82FB;
+}
+
 /* importing my pixel font */
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 /* removing the default margin provided by the browser */
@@ -10,8 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #258382
-    ;
+    background: linear-gradient(to right, var(--left-color), var(--right-color));
 }
 
 nav {
