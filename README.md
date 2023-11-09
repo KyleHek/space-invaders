@@ -15,4 +15,4 @@ LINK TO SCREENSHOT ()
 
 ## Play
 
-[Play the game](kylehek.github.io/space-invaders/)
+[Play the game](https://kylehek.github.io/space-invaders/)
