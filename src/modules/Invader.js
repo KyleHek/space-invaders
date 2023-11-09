@@ -7,10 +7,10 @@ export default class Invader {
             y: 0
         }
         const originalImage = new Image();
-        originalImage.src = './images/invader.png';
+        originalImage.src = './assets/images/invader.png';
         this.originalImage = originalImage;
         const alternateImage = new Image();
-        alternateImage.src = './images/invaderShoot.png';
+        alternateImage.src = './assets/images/invaderShoot.png';
         this.alternateImage = alternateImage;
         originalImage.onload = () => {
             const scale = .08

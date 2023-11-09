@@ -5,7 +5,7 @@ export default class PowerupInvader {
         this.position = position
         this.velocity = velocity
         const image = new Image()
-        image.src = './images/invader2.png'
+        image.src = './assets/images/invader2.png'
         image.onload = () => {
             const scale = .1
             this.image = image

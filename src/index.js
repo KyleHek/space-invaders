@@ -1,10 +1,10 @@
-import Player from "./Player.js";
-import Projectile from "./Projectile.js";
-import Grid from "./Grid.js";
-import Invader from "./Invader.js";
-import InvaderProjectile from "./InvaderProjectile.js";
-import PowerupInvader from "./PowerupInvader.js";
-import Particle from "./Particle.js";
+import Player from "./modules/Player.js";
+import Projectile from "./modules/Projectile.js";
+import Grid from "./modules/Grid.js";
+import Invader from "./modules/Invader.js";
+import InvaderProjectile from "./modules/InvaderProjectile.js";
+import PowerupInvader from "./modules/PowerupInvader.js";
+import Particle from "./modules/Particle.js";
 
 const canvas = document.querySelector('canvas');
 const startGameElem = document.getElementById('start-game');
@@ -14,14 +14,14 @@ const gameOverElement = document.getElementById('game-over-element')
 const gameOverScore = document.getElementById('game-over-score')
 const restartButton = document.getElementById('restart');
 
-const backgroundMusic = new Audio('./audio/backgroundMusic.mp3');
-const startSound = new Audio('./audio/start.mp3');
-const shootSound = new Audio('./audio/shoot.wav');
-const invaderShootSound = new Audio('./audio/invaderShoot.wav');
-const enemyDeathSound = new Audio('./audio/enemyDeath.wav');
-const explodeSound = new Audio('./audio/bomb.mp3');
-const gameOverSound = new Audio('./audio/gameOver.mp3');
-const powerupSound = new Audio('./audio/bonus.mp3');
+const backgroundMusic = new Audio('./assets/audio/backgroundMusic.mp3');
+const startSound = new Audio('./assets/audio/start.mp3');
+const shootSound = new Audio('./assets/audio/shoot.wav');
+const invaderShootSound = new Audio('./assets/audio/invaderShoot.wav');
+const enemyDeathSound = new Audio('./assets/audio/enemyDeath.wav');
+const explodeSound = new Audio('./assets/audio/bomb.mp3');
+const gameOverSound = new Audio('./assets/audio/gameOver.mp3');
+const powerupSound = new Audio('./assets/audio/bonus.mp3');
 let musicVolume = document.getElementById('music');
 musicVolume.addEventListener("change", function(e) {
     backgroundMusic.volume = e.currentTarget.value / e.currentTarget.max;
