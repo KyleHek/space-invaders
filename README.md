@@ -9,10 +9,6 @@ A classic Space Invaders game implemented with HTML, CSS, and JavaScript. The ga
 - Responsive design for an optimal gaming experience.
 - Each wave gets faster to test the player, try it out!
 
-## Screenshots
-
-LINK TO SCREENSHOT ()
-
 ## Play
 
 [Play the game](https://kylehek.github.io/space-invaders/)
