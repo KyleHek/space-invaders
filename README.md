@@ -11,4 +11,4 @@ A classic Space Invaders game implemented with HTML, CSS, and JavaScript. The ga
 
 ## Play
 
-[Play the game](https://kylehek.github.io/space-invaders/)
+[Play the game](https://space-invaders-rvfv.onrender.com) deployed at [Render](https://render.com/).
