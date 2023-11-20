@@ -37,13 +37,13 @@ ul {
     padding: 0;
 }
 
-.logo {
+.volume {
     text-align: center;
     display: flex;
     transition: all .5 ease;
 }
 
-.logo img {
+.volume img {
     padding-left: 20px;
     width: 45px;
     height: 45px;
@@ -52,7 +52,7 @@ ul {
 nav:hover {
     width: 300px;
     height: 200px;
-    background: #258382;
+    background: #FC5C7D;
     box-shadow: 0 20px 35px rgba(0, 0, 0, .1);
     transition: all .5 ease;
 }
