@@ -52,9 +52,18 @@ ul {
 nav:hover {
     width: 300px;
     height: 200px;
-    background: #FC5C7D;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, .1);
+    background: transparent;
+    color: white;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .1);
     transition: all .5 ease;
+    border-radius: 0 0 5% 0;
+    backdrop-filter: blur(2px);
+
+    z-index: 8;
+}
+
+canvas {
+    z-index: 7;
 }
 
 .logo span {
@@ -78,9 +87,8 @@ nav:hover {
 }
 
 h1 {
-    margin-top: 0px;
-    margin-bottom: 3rem;
-    font-size: 2.9em;
+    margin-bottom: 2rem;
+    font-size: 3em;
 }
 
 .container {
